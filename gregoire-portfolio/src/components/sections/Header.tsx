@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { siteConfig } from '@/content/site';
@@ -23,8 +24,14 @@ export function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-lg flex items-center justify-center border border-white/30">
-              <span className="text-white font-bold text-sm">GF</span>
+            <div className="w-10 h-10 relative">
+              <Image 
+                src="/GF-logo.jpg" 
+                alt="Logo Grégoire François" 
+                fill
+                className="object-cover rounded-lg"
+                priority
+              />
             </div>
             <span className="font-semibold text-lg text-white">{siteConfig.name}</span>
           </Link>
