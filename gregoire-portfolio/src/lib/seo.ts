@@ -8,7 +8,7 @@ export const defaultMetadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: '/GF-logo.jpg',
+    icon: '/GF-logo.ico',
   },
   keywords: [
     'freelance',
