@@ -4,7 +4,7 @@ export const siteConfig = {
   location: "Bayonne, FR — Available worldwide",
   languages: ["Français", "English", "Español"],
   availability: "Open to projects — Sept 2025",
-  email: "gregire.p.francois@gmail.com",
+  email: "gregoire.p.francois@gmail.com",
   github: "https://github.com/Gregoire0311",
   linkedin: "https://www.linkedin.com/in/grégoire-françois-943436209/",
   
@@ -144,7 +144,7 @@ export const siteConfig = {
     social: {
       github: "https://github.com/...",
       linkedin: "https://www.linkedin.com/in/...",
-      email: "gregoire@example.com"
+      email: "gregoire.p.francois@gmail.com"
     }
   }
 } as const;

@@ -21,7 +21,7 @@ export const projects: Project[] = [
     title: "Aluminum Foundry ERP",
     tagline: "Production management system for aluminum foundry",
     image: "/projects/aluminum-foundry.jpg",
-    stack: ["PHP", "SQL", "CSS", "HTML"],
+    stack: ["PHP", "SQL", "CSS", "HTML", "JavaScript"],
     role: ["Full-stack development", "Database design", "Business logic", "UI/UX"],
     demoType: "Personal",
     repoUrl: "#",

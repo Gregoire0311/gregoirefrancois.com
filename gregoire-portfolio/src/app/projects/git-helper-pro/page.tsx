@@ -46,20 +46,7 @@ export default function GitHelperProPage() {
                     {project.description}
                   </p>
                   
-                  <div className="flex flex-wrap gap-4">
-                    <Button asChild>
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Live Demo
-                      </a>
-                    </Button>
-                    <Button variant="outline" asChild>
-                      <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-                        <Github className="h-4 w-4 mr-2" />
-                        View Code
-                      </a>
-                    </Button>
-                  </div>
+                  
                 </div>
                 
                 <div className="relative">

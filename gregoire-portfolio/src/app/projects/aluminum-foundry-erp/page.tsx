@@ -46,29 +46,11 @@ export default function AluminumFoundryERPage() {
                     {project.description}
                   </p>
                   
-                  {/* Client Logo */}
-                  <div className="mb-8">
-                    <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/20 inline-block">
-                      <div className="flex items-center space-x-3">
-                        <span className="text-sm text-muted-foreground">Client:</span>
-                        <img 
-                          src="/alu-fonte-logo.svg" 
-                          alt="ALU FONTE Logo" 
-                          className="h-10 w-auto"
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  
                   
                   <div className="flex flex-wrap gap-4">
-                    <Button asChild>
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Live Demo
-                      </a>
-                    </Button>
                     <Button variant="outline" asChild>
-                      <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/Gregoire0311/projet-alufonte" target="_blank" rel="noopener noreferrer">
                         <Github className="h-4 w-4 mr-2" />
                         View Code
                       </a>

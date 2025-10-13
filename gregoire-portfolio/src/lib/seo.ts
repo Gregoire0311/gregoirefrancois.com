@@ -7,6 +7,9 @@ export const defaultMetadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  icons: {
+    icon: '/GF-logo.jpg',
+  },
   keywords: [
     'freelance',
     'web developer',

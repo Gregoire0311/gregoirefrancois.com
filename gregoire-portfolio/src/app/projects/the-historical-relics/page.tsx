@@ -46,20 +46,7 @@ export default function TheHistoricalRelicsPage() {
                     {project.description}
                   </p>
                   
-                  <div className="flex flex-wrap gap-4">
-                    <Button asChild>
-                      <Link href={project.liveUrl} className="flex items-center">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        View Live
-                      </Link>
-                    </Button>
-                    <Button asChild variant="outline">
-                      <Link href={project.repoUrl} className="flex items-center">
-                        <Github className="h-4 w-4 mr-2" />
-                        View Code
-                      </Link>
-                    </Button>
-                  </div>
+                  
                 </div>
                 
                 <div className="relative">
