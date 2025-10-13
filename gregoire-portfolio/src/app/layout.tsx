@@ -21,6 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        <link rel="icon" href="/favicon-new.ico?v=1" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon-new.ico?v=1" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/favicon-new.ico?v=1" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
